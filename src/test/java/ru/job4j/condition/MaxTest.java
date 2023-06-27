@@ -30,6 +30,7 @@ public class MaxTest {
         int expected = 3;
         assertThat(result).isEqualTo(expected);
     }
+
     @Test
     public void whenMax3To3Then3() {
         int left = 3;
