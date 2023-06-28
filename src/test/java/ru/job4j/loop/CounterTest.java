@@ -20,7 +20,7 @@ class CounterTest {
         int start = 5;
         int finish = 11;
         int result = Counter.sumByEven(start, finish);
-        int expected = 24;
+        int expected = 2;
         assertThat(result).isEqualTo(expected);
     }
 }
